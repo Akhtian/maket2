@@ -68,6 +68,10 @@ table {
 	
 		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/header.png);
 		background-size: cover;
+		 -webkit-background-size: 100% 100%;    
+    	 -moz-background-size: 100% 100%;           
+       	 -o-background-size: 100% 100%;           
+          background-size: 100% 100%;
 		
 }
 /*.header:after{
