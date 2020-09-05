@@ -65,9 +65,7 @@ table {
 }
 
 .header{
-		content: " ";
-		z-index: 1;
-		position: relative;
+	
 		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/header.png);
 		background-size: cover;
 		
@@ -123,7 +121,7 @@ table {
 }
 .header_6{
 	justify-content: center;
-	padding-bottom: : 28px;
+	padding-bottom:  28px;
 }
 
 
@@ -146,12 +144,12 @@ table {
 		}
 
 .menu li{
-			display: inline-block;
+			
 			position: relative;
 			margin-left: 40px;
 		}
 .menu li a{
-			display: inline-block;
+			
 			text-decoration: none;
 			
 			height: 30px;
@@ -354,13 +352,14 @@ margin-bottom: 45px;
 .backery_content2_2{
 	margin: 0 auto;
 	text-align: center;
+	vertical-align:middle
 }
 .backery_content2_2 div{
 	display: inline-block;
 }
 
 .arrow_left{
-	vertical-align: middle;
+	top:50%;
 	margin: 0 auto;
 	content:"";
 	width: 10px;
@@ -385,6 +384,7 @@ margin-bottom: 45px;
 }
 .backery_content2_2_items>div img{
 	margin-bottom: 20px;
+	border-radius: 70%;
 }
 
 .backery_content2_2_items>div>.name{
@@ -867,12 +867,6 @@ letter-spacing: 0.35px;
 		padding-bottom: 79px;
 }
 
-
-.content5_1 div{
-		display: block;
-
-}
-
 .content5_1_1{
 
 		color: #0b0806;
@@ -904,7 +898,65 @@ letter-spacing: 0.35px;
 	margin-bottom: 34px;
 }
 
+.content5_1_5{
+	margin-top: 30px;
+}
+
+.content5_1_6{
+	margin-top: 15px;
+}
+
+.content5_1_7{
+	display: flex;
+	margin-top:20px;
+}
+
+.content5_1_7_button1>a{
+	text-decoration: none;
+
+color: #000000;
+font-family: Nunito,sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.35px;
+border:2px solid #000000;
+padding: 10px 33px;
+vertical-align: middle;
+}
+
+.content5_1_7_button1>a:hover{
+	background: #000000;
+	color: #ffffff;
+
+}
+
+.content5_1_7_button2>a{
+
+	text-decoration: none;
+color: #000000;
+font-family: Nunito,sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 36px;
+/* Text style for "Where to b" */
+letter-spacing: 0.35px;
+border:2px solid #000000;
+padding: 10px 33px;
+vertical-align: middle;
+}
+
+.content5_1_7_button2>a:hover{
+	background: #000000;
+	color: #ffffff;
+}
+
+.content5_1_7_button2{
+	margin-left: 30px;
+}
+
 /*Footer block*/
+
 
 .footer{
 		
@@ -920,8 +972,8 @@ letter-spacing: 0.35px;
 
 }
 
-.footer_content>div{
-	display: inline-block;
+.footer_content{
+	display: flex;
 }
 
 .bakeryBo2{ 
@@ -934,6 +986,7 @@ letter-spacing: 0.35px;
 			letter-spacing: 0.9px;
 			
 }
+
 
 .footer1_2{
 padding-top: 25px;
@@ -958,6 +1011,10 @@ font-weight: 400;
 letter-spacing: 0.4px;
 }
 
+.footer2_3{
+	margin-top: 11px;
+}
+
 .footer2_2, .footer3_2, .footer3_3{
 padding-top: 16px;
 color: #ffffff;
@@ -968,7 +1025,7 @@ letter-spacing: 0.35px;
 }
 
 .footer3_2{
-	line-height: 48px;
+	line-height: 20px;
 }
 
 .footer3{
