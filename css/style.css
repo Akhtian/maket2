@@ -910,6 +910,22 @@ letter-spacing: 0.35px;
 	margin-top: 15px;
 }
 
+.custom-checkbox{
+	display: none;
+	position: relative;
+}
+
+.custom-checkbox:after{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 30px;
+	width: 30px;
+	background-color: grey;
+
+}
+
 .content5_1_7{
 	display: flex;
 	margin-top:20px;
