@@ -313,6 +313,7 @@ margin-top: 36px;
 }
 
 .arrow_down_2{
+	display: block;
 	justify-content: center;
 	margin: 0 auto;
 	content:"";
