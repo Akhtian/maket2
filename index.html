@@ -19,7 +19,7 @@
 	 		BakeryBo
 	 		</h1>
 	 	</div>
-	 		<div>
+	 		<nav>
 	 		<ul class="menu">
 		<li><a href="#">Home</a></li>
 		<li><a href="#">About</a></li>
@@ -28,7 +28,7 @@
 		<li><a href="#">Bakery</a></li>
 		<li><a href="#">Contact</a></li>
 			</ul>
-	 		</div>
+	 		</nav >
 	 	</div>
 	 	<div class="header_2"><h2 class="bakery_h2">
 			New product line from BakeryBo®
@@ -73,7 +73,7 @@
 	 	<div class="backery_content1_h2_2">We are 100% honest about how we bake our bread.
 			<br>BakeryBo bread is a rich source of various antioxidants, vitamins, minerals and fibers.
 			<br>There are no hidden ingredients that could harm your health or contradict your fitness goals in our recipes. </div>
-	 	<div class="wave_icon_black"><img src="img/Wave_icon_black.png" alt="Black wave"></div>
+	 	<div class="wave_icon_black"></div>
 	 	<div class="baget_img"><img src="img/Baget.png" alt="Sliced big baget"></div>
 	 	<div class="content1_5">
 	 	<a class="arrow_down_2" href="#"></a>
@@ -88,28 +88,28 @@
 	 		<a href="#"><div class="arrow_left"></div></a>
 	 		<div class="backery_content2_2_items">
 	 			<div class="backery_content2_2_item_1">
-	 				<img src="img/item1.png" alt="sell baget">
+	 				<!--<img src="img/item1.png" alt="sell baget">-->
 	 				<div class="name">Whole Wheat
 	 				<br>Round</div>
 	 				<div class="description">270 g | 218 kcal</div>
 	 				<div class="price">$3.79</div>
 	 			</div>
 	 			<div class="backery_content2_2_item_2">
-	 				<img src="img/item2.png" alt="sell baget">
+	 			<!--	<img src="img/item2.png" alt="sell baget">-->
 	 				<div class="name">Whole Wheat
 					<br>Square</div>
 	 				<div class="description">270 g | 218 kcal</div>
 	 				<div class="price">$3.79</div>
 	 			</div>
 	 			<div class="backery_content2_2_item_3">
-	 				<img src="img/item3.png" alt="sell baget">
+	 			<!--	<img src="img/item3.png" alt="sell baget">-->
 	 				<div class="name">Whole Wheat
 					<br> Multigrain</div>
 	 				<div class="description">270 g | 242 kcal</div>
 	 				<div class="price">$4.19</div>
 	 			</div>
 	 			<div class="backery_content2_2_item_4">
-	 				<img src="img/item4.png" alt="sell baget">
+	 				<!--<img src="img/item4.png" alt="sell baget">-->
 	 				<div class="name">Breakfast Raisin
 					<br>Square</div>
 	 				<div class="description">180 g | 239 kcal</div>
@@ -145,8 +145,21 @@
 	 	<div class="backery_content3_h2_1">Where to buy</div>
 	 	<div class="backery_content3_2">You can find BakeryBo bread in nearly any supermarket in your neighbourhood.
 		<br>Our new whole wheat bread line is already on the shelves.</div>
-	 	<div class="white_wave"><img src="img/Wave_icon_white.png" alt="white wave"></div>
-	 	<div class="partner_logo"><img src="img/content3_logos.png" alt="Partners"></div>
+	 	<div class="white_wave"></div>
+	 	<div class="partner_logo"><!--<img src="img/content3_logos.png" alt="Partners">-->
+	 		<div class="partner_logo_1">
+	 			<div class="partner1"></div>
+	 			<div class="partner2"></div>
+	 			<div class="partner3"></div>
+	 			<div class="partner4"></div>
+	 	</div>
+	 			<div >
+	 			<div class="partner5"></div>
+	 			<div class="partner6"></div>
+	 			<div class="partner7"></div>
+	 			<div class="partner8"></div>
+	 	</div>
+	 	</div>
 	 	<div class="content3_5">
 	 	<a class="arrow_down" href="#"></a>
 	 	</div>
@@ -224,12 +237,13 @@
 Just download a “Buy 1 get 1 free” coupon and give it away at the cash register. You’ll receive 2 loaves for the price of 1. Isn’t it great?</div>
 	 		<div class="content5_1_4">To download a coupon please type in your e-mail.
 You don’t have to check the box if you don’t want to receive news from us though.</div>
-	 		<div class="content5_1_5"><label for="allow_send_emails">I want to receive news about deals and new products.</label>
-			</div><input type="email" placeholder="E-mail*"><label for="allow_send_emails">I want to receive news about deals and new products.</label>
-			
-	 		<div class="content5_1_6"><input type="checkbox" class="custom-checkbox" id="allow_send_emails" name="happy" value="yes">
-			<label for="allow_send_emails">I want to receive news about deals and new products.</label>
-			</div>
+	 	<div class="content5_1_5">
+			<input type="email" placeholder="E-mail*">
+		</div>
+			<div class="content5_1_6">	
+			<input type="checkbox" id="allow_send_emails">
+			<label class="allow_send_emails_checkbox" for="allow_send_emails">I want to receive news about deals and new products.</label>
+		</div>
 	 		<div class="content5_1_7">	
 	 			<div>
 	 		<p class="content5_1_7_button1">
@@ -245,7 +259,14 @@ You don’t have to check the box if you don’t want to receive news from us th
 		</p>
 			</div></div>
 	 </div>
-	 	<div class="content5_2"><img src="img/Coupon_Image.png" alt="Bakery Coupon"></div>
+	 	<div class="content5_2"><!--<img src="img/Coupon_Image.png" alt="Bakery Coupon">-->
+	 		<div class="content5_2_1">buy 1 get 1</div>
+	 		<div class="content5_2_2">free</div>
+	 		<div class="content5_2_3">Try new</div>
+	 		<div class="content5_2_4">BakeryBo</div>
+	 		<div class="content5_2_5">whole wheat bread</div>
+	 		<div class="content5_2_6">Just grab 2 same loaves on the shelf, give the coupon at the cash register and pay for 1 loaf only.</div>
+	 	</div>
 	 </div>
 	
 
@@ -262,9 +283,9 @@ You don’t have to check the box if you don’t want to receive news from us th
 	 		<div class="footer2_1">Follow us</div>
 	 		<div class="footer2_2">Yes, we are social</div>
 	 		<div class="footer2_3">
-	 			<a href="#"><img src="img/sprite/Twitter_icon.png" alt="BakeryBo Twitter"></a>
-	 			<a href="#"><img src="img/sprite/Insta_icon.png" alt="BakeryBo instagram"></a>
-	 			<a href="#"><img src="img/sprite/FB_icon.png" alt="BakeryBo instagram"></a>
+	 			<a href="#" class="social-twitter"></a>
+	 			<a href="#" class="social-instagram"></a>
+	 			<a href="#" class="social-facebook"></a>
 	 		</div>
 	 	</div>
 	 	<div class="footer3">

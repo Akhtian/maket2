@@ -1,0 +1,148 @@
+bg-Bread4 {
+    width: 110px; height: 110px;
+    background: url('css_sprites.png') -10px -1236px;
+}
+
+x
+.bg-Calendar {
+    width: 55px; height: 55px;
+    background: url('css_sprites.png') -10px -761px;
+}
+
+x
+.bg-Cart {
+    width: 61px; height: 51px;
+    background: url('css_sprites.png') -10px -690px;
+}
+
+x
+.bg-FB_icon {
+    width: 26px; height: 26px;
+    background: url('css_sprites.png') -10px -112px;
+}
+
+x
+.bg-Fred_Meyer {
+    width: 158px; height: 30px;
+    background: url('css_sprites.png') -10px -250px;
+}
+
+x
+.bg-Insta_icon {
+    width: 27px; height: 26px;
+    background: url('css_sprites.png') -10px -158px;
+}
+
+x
+.bg-Meijer {
+    width: 159px; height: 60px;
+    background: url('css_sprites.png') -10px -913px;
+}
+
+x
+.bg-Publix {
+    width: 160px; height: 36px;
+    background: url('css_sprites.png') -10px -455px;
+}
+
+x
+.bg-Recycable {
+    width: 61px; height: 57px;
+    background: url('css_sprites.png') -10px -836px;
+}
+
+x
+.bg-Rolling_spin_icon {
+    width: 61px; height: 61px;
+    background: url('css_sprites.png') -10px -1073px;
+}
+
+x
+.bg-Safeway {
+    width: 160px; height: 30px;
+    background: url('css_sprites.png') -10px -300px;
+}
+
+x
+.bg-Scissors_icon {
+    width: 41px; height: 62px;
+    background: url('css_sprites.png') -10px -1154px;
+}
+
+x
+.bg-Seeds {
+    width: 60px; height: 60px;
+    background: url('css_sprites.png') -10px -993px;
+}
+
+x
+.bg-Twitter_icon {
+    width: 27px; height: 26px;
+    background: url('css_sprites.png') -10px -204px;
+}
+
+x
+.bg-Walgreens {
+    width: 158px; height: 35px;
+    background: url('css_sprites.png') -10px -400px;
+}
+
+x
+.bg-Walmart {
+    width: 159px; height: 38px;
+    background: url('css_sprites.png') -10px -511px;
+}
+
+x
+.bg-Wave_icon {
+    width: 120px; height: 9px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+x
+.bg-Wave_icon_копия {
+    width: 120px; height: 9px;
+    background: url('css_sprites.png') -10px -39px;
+}
+
+x
+.bg-Whole_F {
+    width: 159px; height: 38px;
+    background: url('css_sprites.png') -10px -569px;
+}
+
+x
+.bg-Winn_D {
+    width: 159px; height: 24px;
+    background: url('css_sprites.png') -10px -68px;
+}
+
+x
+.bg-BakeryBo_LOGO_2 {
+    width: 152px; height: 43px;
+    background: url('css_sprites.png') -10px -627px;
+}
+
+x
+.bg-Bread_icon {
+    width: 60px; height: 30px;
+    background: url('css_sprites.png') -10px -350px;
+}
+
+x
+.bg-Bread1 {
+    width: 110px; height: 110px;
+    background: url('css_sprites.png') -10px -1366px;
+}
+
+x
+.bg-Bread2 {
+    width: 110px; height: 110px;
+    background: url('css_sprites.png') -10px -1496px;
+}
+
+x
+.bg-Bread3 {
+    width: 110px; height: 110px;
+    background: url('css_sprites.png') -10px -1626px;
+}
